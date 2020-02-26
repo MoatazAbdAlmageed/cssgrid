@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+.container {
+  display: grid;
+  /* grid-template-columns: 33.3% 33.3% 33.3%; */
+  /* grid-template-columns: repeat(3, 33.3%); */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: 2fr 2fr;
+} 
+
+.container > .item {
+  padding: 30px;
+  background: #333;
+  color: #fff;
+  margin: 5px;
+}
