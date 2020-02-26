@@ -7,11 +7,17 @@ body {
   /* grid-template-columns: repeat(3, 33.3%); */
   /* grid-template-columns: 1fr 1fr 1fr; */
   grid-template-columns: 2fr 2fr;
+
+
+  /* rows */
   /* grid-template-rows: repeat(3, 100px); */
   grid-auto-rows: minmax(200px);
+
+  /* gap */
   /* grid-column-gap:5px;
   grid-row-gap:5px; */
-  grid-gap:5px;
+  /* grid-gap:5px; */
+  grid-gap:5px 20px;
 }
 
 .container > .item {
