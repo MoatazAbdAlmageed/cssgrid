@@ -7,11 +7,16 @@ body {
   /* grid-template-columns: repeat(3, 33.3%); */
   /* grid-template-columns: 1fr 1fr 1fr; */
   grid-template-columns: 2fr 2fr;
-} 
+  /* grid-template-rows: repeat(3, 100px); */
+  grid-auto-rows: minmax(200px);
+}
 
 .container > .item {
   padding: 30px;
   background: #333;
   color: #fff;
   margin: 5px;
+}
+.container > .item:hover {
+  background: orangered;
 }
